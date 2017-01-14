@@ -34,3 +34,46 @@ We will use two arduinos in a master-slave configuration communicating over RS48
 ### Facilitating future improvements
 I would like to be able to expand the functionality of the product a t a later date to add cool stuff like wifi or simply a light switch to keep it turned on. To do this we must design our code to be expandable and not like other simple arduino projects.
 
+## User stories
+
+In the /features directory.
+
+## Proposed solution
+
+### Physical
+```
+   DDDDDDDDDDDDDDD
+ +-----------------+
+ |                 |
+ |                 |
+ |                 |
+ |        BB      AA
+ |        BB       AA
+ |                 AA
+SS                 |
+SS                 |
+ |                 |                                                          AAA
+ +-----------------+------------------------------------------------+-+-+-----AAA------+
+ |                                                                  | | |              |G
+ |                                                                  | | |              |G
+ |                                                                  | | |              |G
+ |                                                                  | | |     BB       |G
+ |                                                                  | | |     BB       |G
+ |                                                                  | | |              |G
+ |                                                                  | | |              |G
+ |                                                                  | | |              |G
+ |                                                                  | | |              |G
+ +---LLLLL----LLLLL----LLLLL----LLLLL----LLLLL----LLLLL----LLLLL----LLLLL------+SS+----+
+                                                                                SS
+```
+
+```
+D - Door
+G - Gate
+B - Constant lights
+S - Movement sensor
+A - Arduino brains
+L - Led strips
+```
+
+The system will be built out of two arduino brains communicating over RS485. The brain will be connected to half of the lights and the slave to the other half. Each will get the movement sensor near it, and the brain will also have the light sensor to check whether it is daytime.
