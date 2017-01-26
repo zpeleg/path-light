@@ -94,13 +94,48 @@ ArduinoOutput:
     
 ArduinoInput:
     int AnalogRead()
-    int DigitalRead()
+
+There is no reason for digital read, I dont see the serial protocol being fast enough to read it.
 
 An IO manager should hold all the instances and return them by the requested name.
 
 IoManager:
-  GetInput
+  GetInput(string name)
+  GetOutput(string name)
 
 
 ##### Arduino Over Serial
+
+Communication has to be sync and on demand. I will design a protocol that will specify input and output, intput requiring a device name (Or pin??) and output the same with the value to set. I should google if someone had done this before.
+
+
 ##### Behavior Level
+At first, this will be super basic. The master arduino will look for movement on the sensor, check the amount of light outside and if everything is matching it will start the light animation from the correct direction.
+
+I should also allow for a button that will keep the lights working until I turn them off.
+
+##### The code on each sever
+
+###### Master - brain
+
+loop:
+  if movement detected and light is low:
+    start animation
+  if button was pressed:
+    turn on all lights
+
+animation:
+  for li in lights:
+    for fade in fade_values:
+      li.set fade
+
+###### Slave - extra pins
+
+loop: 
+  if serial has data:
+    if output:
+      set output
+      send confirmation on serial
+    if input:
+      send input value
+
