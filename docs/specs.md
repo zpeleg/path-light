@@ -87,21 +87,25 @@ The system will be built in two layers, one will be an abstraction layer on top 
 ##### HAL Level
 Expose an input class and an output class, output clas should allow pwm and digital output
 
+```
 ArduinoOutput:
-    void DigitalWrite(int OUTPUT)
-    void AnalogWrite(int level)
-    string name;
+  void DigitalWrite(int OUTPUT)
+  void AnalogWrite(int level)
+  string name;
     
 ArduinoInput:
-    int AnalogRead()
+  int AnalogRead()
+```
 
 There is no reason for digital read, I dont see the serial protocol being fast enough to read it.
 
 An IO manager should hold all the instances and return them by the requested name.
 
+```
 IoManager:
   GetInput(string name)
   GetOutput(string name)
+```
 
 
 ##### Arduino Over Serial
@@ -118,6 +122,7 @@ I should also allow for a button that will keep the lights working until I turn 
 
 ###### Master - brain
 
+```
 loop:
   if movement detected and light is low:
     start animation
@@ -128,9 +133,11 @@ animation:
   for li in lights:
     for fade in fade_values:
       li.set fade
+```
 
 ###### Slave - extra pins
 
+```
 loop: 
   if serial has data:
     if output:
@@ -138,4 +145,8 @@ loop:
       send confirmation on serial
     if input:
       send input value
+```
+
+
+## Logs?
 
