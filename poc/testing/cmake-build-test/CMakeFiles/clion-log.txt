@@ -1,0 +1,4 @@
+/opt/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Test -G "CodeBlocks - Unix Makefiles" /home/ziv/Code/poc
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ziv/Code/poc/cmake-build-test

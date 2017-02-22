@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/poc.dir/main.cpp.o  -o poc 

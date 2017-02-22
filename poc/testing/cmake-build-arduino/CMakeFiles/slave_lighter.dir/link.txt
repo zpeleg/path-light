@@ -1,0 +1,1 @@
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions  -Wl,--gc-sections -lm -mmcu=atmega328p  CMakeFiles/slave_lighter.dir/src/slave/SlaveMain.cpp.obj  -o slave_lighter.elf  libuno_CORE.a -lc -lm 

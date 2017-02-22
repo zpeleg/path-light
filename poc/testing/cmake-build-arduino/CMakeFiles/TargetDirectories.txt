@@ -1,0 +1,11 @@
+/home/ziv/Code/poc/cmake-build-arduino/CMakeFiles/master_lighter.dir
+/home/ziv/Code/poc/cmake-build-arduino/CMakeFiles/master_lighter-size.dir
+/home/ziv/Code/poc/cmake-build-arduino/CMakeFiles/slave_lighter.dir
+/home/ziv/Code/poc/cmake-build-arduino/CMakeFiles/edit_cache.dir
+/home/ziv/Code/poc/cmake-build-arduino/CMakeFiles/mega2560_CORE.dir
+/home/ziv/Code/poc/cmake-build-arduino/CMakeFiles/master_lighter-upload.dir
+/home/ziv/Code/poc/cmake-build-arduino/CMakeFiles/upload.dir
+/home/ziv/Code/poc/cmake-build-arduino/CMakeFiles/rebuild_cache.dir
+/home/ziv/Code/poc/cmake-build-arduino/CMakeFiles/uno_CORE.dir
+/home/ziv/Code/poc/cmake-build-arduino/CMakeFiles/slave_lighter-size.dir
+/home/ziv/Code/poc/cmake-build-arduino/CMakeFiles/slave_lighter-upload.dir

@@ -1,0 +1,1 @@
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions  -Wl,--gc-sections -lm -mmcu=atmega2560  CMakeFiles/master_lighter.dir/src/master/MasterMain.cpp.obj CMakeFiles/master_lighter.dir/src/master/LighterBrain.cpp.obj  -o master_lighter.elf  libmega2560_CORE.a -lc -lm 

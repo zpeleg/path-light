@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/runUnitTests.dir/test/GtestMain.cpp.o CMakeFiles/runUnitTests.dir/test/LighterBrainTests.cpp.o CMakeFiles/runUnitTests.dir/src/master/LighterBrain.cpp.o  -o runUnitTests googletest/googletest/libgtest.a -lpthread 

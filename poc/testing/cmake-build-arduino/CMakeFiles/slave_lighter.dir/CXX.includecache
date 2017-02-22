@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ziv/Code/poc/src/slave/MasterSlave.cpp
+Arduino.h
+/home/ziv/Code/poc/src/slave/Arduino.h
+

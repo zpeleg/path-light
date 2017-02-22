@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="poc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\arduino-cmake\;CMake Files\arduino-cmake\cmake\;CMake Files\arduino-cmake\cmake\Platform\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="master_lighter">
+				<Option output="/home/ziv/Code/poc/cmake-build-arduino/master_lighter.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 master_lighter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="master_lighter/fast">
+				<Option output="/home/ziv/Code/poc/cmake-build-arduino/master_lighter.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 master_lighter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="master_lighter-size">
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 master_lighter-size"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slave_lighter">
+				<Option output="/home/ziv/Code/poc/cmake-build-arduino/slave_lighter.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 slave_lighter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slave_lighter/fast">
+				<Option output="/home/ziv/Code/poc/cmake-build-arduino/slave_lighter.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 slave_lighter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mega2560_CORE">
+				<Option output="/home/ziv/Code/poc/cmake-build-arduino/libmega2560_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 mega2560_CORE"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mega2560_CORE/fast">
+				<Option output="/home/ziv/Code/poc/cmake-build-arduino/libmega2560_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 mega2560_CORE/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="master_lighter-upload">
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 master_lighter-upload"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upload">
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 upload"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_CORE">
+				<Option output="/home/ziv/Code/poc/cmake-build-arduino/libuno_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 uno_CORE"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_CORE/fast">
+				<Option output="/home/ziv/Code/poc/cmake-build-arduino/libuno_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/avr/4.9.2/../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 uno_CORE/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slave_lighter-size">
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 slave_lighter-size"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slave_lighter-upload">
+				<Option working_dir="/home/ziv/Code/poc/cmake-build-arduino"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 slave_lighter-upload"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ziv/Code/poc/cmake-build-arduino/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ziv/Code/poc/src/ArduinoAbstract/ArduinoPinWrapper.h">
+			<Option target="master_lighter"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/poc/src/ArduinoAbstract/ArduinoTimeWrapper.h">
+			<Option target="master_lighter"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/poc/src/ArduinoAbstract/IPinWrapper.h">
+			<Option target="master_lighter"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/poc/src/ArduinoAbstract/ITimeWrapper.h">
+			<Option target="master_lighter"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/poc/src/ArduinoAbstract/consts.h">
+			<Option target="master_lighter"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/poc/src/master/LighterBrain.cpp">
+			<Option target="master_lighter"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/poc/src/master/LighterBrain.h">
+			<Option target="master_lighter"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/poc/src/master/MasterMain.cpp">
+			<Option target="master_lighter"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/poc/src/slave/SlaveMain.cpp">
+			<Option target="slave_lighter"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Arduino.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Client.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Platform.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Print.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Printable.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Server.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Stream.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/USBAPI.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/USBDesc.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/Udp.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/WCharacter.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/WString.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/avr-libc/malloc.c">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/avr-libc/realloc.c">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/avr-libc/sectionname.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/avr-libc/stdlib_private.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/binary.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/new.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/wiring_private.h">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c">
+			<Option target="mega2560_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/poc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/poc/arduino-cmake/cmake/ArduinoToolchain.cmake">
+			<Option virtualFolder="CMake Files\arduino-cmake\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/poc/arduino-cmake/cmake/Platform/Arduino.cmake">
+			<Option virtualFolder="CMake Files\arduino-cmake\cmake\Platform\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/poc/arduino-cmake/cmake/Platform/Arduino.cmake">
+			<Option virtualFolder="CMake Files\arduino-cmake\cmake\Platform\"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/poc/arduino-cmake/cmake/Platform/Arduino.cmake">
+			<Option virtualFolder="CMake Files\arduino-cmake\cmake\Platform\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
